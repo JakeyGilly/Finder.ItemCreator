@@ -1,9 +1,9 @@
-﻿using Finder.Shared;
-using Finder.Shared.Enums;
+﻿using Finder.Shared.Enums;
+using Finder.Shared.Models;
 using Newtonsoft.Json;
 using Spectre.Console;
 
-namespace Finder.Bot.ItemCreator;
+namespace Finder.ItemCreator;
 
 public static class Program {
     public static void Main(string[] args) {
