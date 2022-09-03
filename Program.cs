@@ -58,7 +58,7 @@ public static class Program {
             .Title("[aqua]Select the rarity of the item[/] [purple](enum)[/]")
             .AddChoices(ItemRarity.Common, ItemRarity.Uncommon, ItemRarity.Rare, ItemRarity.Epic, ItemRarity.Legendary, ItemRarity.Mythic));
 
-        var item = new Items() {
+        var item = new Items {
             Id = Guid.NewGuid(),
             Name = name,
             Description = description,
