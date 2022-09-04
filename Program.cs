@@ -1,5 +1,5 @@
-﻿using Finder.Shared.Enums;
-using Finder.Shared.Models;
+﻿using Finder.ItemCreator.Enum;
+using Finder.ItemCreator.Models;
 using Newtonsoft.Json;
 using Spectre.Console;
 
